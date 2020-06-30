@@ -1,0 +1,263 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; */
+body
+{
+    font-family: 'Merriweather', serif;
+    color:white;
+    text-align: center;
+}
+h1,h2
+{
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+p
+{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+    font-weight: lighter;
+
+}
+h4
+{
+    margin-bottom: 4%;
+    font-family: 'Roboto', sans-serif;
+}
+#first-section .container-fluid
+{
+    background:linear-gradient(to right,#007991,#78ffd6);
+    text-align: left;
+}
+.container-fluid
+{
+    padding:5% 10%;
+}
+
+/* navigation-bar  */
+
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand
+{
+    font-size:2.4rem;
+    font-weight: bolder;
+    /* background: linear-gradient(#8A2387, #E94057,#F27121); */
+    background:linear-gradient(#fc4a1a,#f7b733);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-item
+{
+    padding:0 10px;
+    
+}
+.nav-link
+{
+    font-size:1rem;
+}
+
+/* tittle-section  */
+.section-col
+{
+    padding-top:4%;
+}
+
+
+/* GALLERY-SECTION  */
+#gallery-section
+{
+    background: linear-gradient(to right,#FFEFBA,#FFFFFF);
+}
+#gallery-section .container
+{
+    padding:5% 10%;
+}
+.container img
+{
+    filter:  contrast(100%) saturate(2);
+    
+}
+.container img:hover
+{
+    filter:grayscale(100%);
+    transition: 0.4s linear;
+}
+.section2-heading
+{
+    margin-bottom:4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(#8A2387, #E94057,#F27121);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      
+}
+
+/* testimonial section  */
+#testimonial
+{
+    background:linear-gradient(to right,#007991,#78ffd6);
+    color:black;
+}
+.card-body
+{
+    padding:3%;
+
+}
+.card img
+{
+    filter: grayscale(100%);
+    transition: 0.6s linear;
+}
+.card img:hover{
+    filter:brightness(100%);
+    
+}
+#testimonial .card-title
+{
+    font-size:1rem;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.testimonial-heading
+{
+    padding: 5% 0 1% 0;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 1px;
+    background:linear-gradient(#1a2a6c,#b21f1f,#fdbb2d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bold;
+}
+/* PRICING SECTION  */
+#pricing
+{
+    color:black;
+    background: linear-gradient(to right,#FFEFBA,#FFFFFF);
+    
+}
+#pricing .card
+{
+    background:linear-gradient(to right,#007991,#78ffd6);
+}
+.pricing-column
+{
+    padding:3% 2%;
+}
+
+/* download section  */
+#download
+{
+    background:linear-gradient(to right,#007991,#78ffd6);
+}
+.download-heading
+{
+    font-size: 1.5rem;
+    background:linear-gradient(#1a2a6c,#b21f1f,#fdbb2d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+.icon 
+{
+    background:linear-gradient(#1a2a6c,#b21f1f,#fdbb2d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin:1% 1%;
+}
+.social-icon
+{
+    margin-top: 1%;
+}
+.download-paragraph
+{
+    margin-top: 3%;
+}
+
+.download-button
+{
+    margin:3% 1%;
+}
+
+/* ALL MEDIA QUIERIES HERE  */
+@media(min-width:300px) And (max-width:500px)
+{
+    h1 {
+        font-size:1.2rem;
+    }
+    .section2-heading
+    {
+        margin-top:2rem;
+        font-size:1rem;
+    }
+    .testimonial-heading
+    {
+        font-size:1.5rem;
+    }
+    h1.download-heading
+    {
+        font-size:12px;
+    }
+    .social-icon
+    {
+        font-size:3vw;
+    }
+    .download-button
+    {
+        font-size:3vw;
+    }
+    .download-paragraph
+    {
+        font-size:3vw;
+    }
+    #pricing .card h4 
+    {
+        font-size:5vw;
+        margin-bottom: 1rem;
+    }
+    #pricing .card p
+    {
+        font-size:3vw;
+        line-height:1;
+    }
+    #pricing .card .btn 
+    {
+        font-size:3vw;
+    }
+    #testimonial .card-title 
+    {
+        font-size:3vw;
+    }
+    .testimonial-heading
+    {
+        font-size:5vw;
+    }
+   
+   
+}
+@media(min-width:500px) And (max-width:768px)
+{
+    h1 {
+        font-size:1.5rem;
+    }
+    .section2-heading
+    {
+        margin-top:2rem;
+        font-size:1rem;
+    }
+    .testimonial-heading
+    {
+        font-size:1.5rem;
+    }
+    h1.download-heading
+    {
+        font-size:1rem;
+    }
+   
+   
+}
